@@ -1,0 +1,25 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Template App Migration Recipes"
+copyright = "@2017, Pivotal Software, Inc. All Rights Reserved, Confidential"
+theme = "hugo-theme-docdock"
+publishDir = "public"
+googleAnalytics = "GOOGLE_TRACKER_ID"
+
+[params]
+  description = "Migrating applications to Cloud Foundry."
+  noCategoryLink = true
+  showVisitedLinks = false
+  noSearch = false
+  noHomeIcon = false
+  ordersectionsby = "weight"
+  ignoreFiles = [ "\\.adoc$" ]
+
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+
+[[menu.shortcuts]]
+pre = "<h3>More</h3>"
+name = "<i class='fa fa-windows'></i>  DotNet Cookbook"
+identifier = "ds"
+url = "https://dotnet-cookbook.cfapps.io/intro/"
